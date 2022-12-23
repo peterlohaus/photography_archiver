@@ -1,5 +1,8 @@
 INPUT_FOLDER_NAME = 'input_files'
 BACKUP_FOLDER_NAME = 'backup'
-ARCHIVE_FOLDER_NAME = 'photography_archive'
+PHOTOGRAPHY_ARCHIVE_FOLDER_NAME = 'photography_archive'
+VIDEO_ARCHIVE_FOLDER_NAME = 'video_archive'
 TIMESTAMP_FORMAT_CODE = '%y%m%d_%H%M%S'
 ARCHIVE_FORMAT = 'zip'
+SUPPORTED_IMAGE_EXTENSIONS = ['jpg', 'nef']
+SUPPORTED_VIDEO_EXTENSIONS = ['mp4']

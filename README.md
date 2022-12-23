@@ -4,6 +4,7 @@
 
 ```
 pip install difPy
+pip install filetype
 ```
 
 ## Configuration
@@ -17,8 +18,18 @@ Paste files in folder [input_files](./input_files/)
 Run
 
 ```
-python run_archiver.py
+python run.py
 ```
+
+Supported files are
+
+```
+.jpg
+.mp4
+.nef
+```
+See [settings.py](./main/settings.py).
+Unsupported files are ignored and left in folder [input_files](./input_files/).
 
 ## Resources
 
