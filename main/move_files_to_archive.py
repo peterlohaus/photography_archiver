@@ -5,11 +5,11 @@ import filetype
 
 
 def moveFilesToArchive():
-    basePath = './input_files/'
-    fileNames = os.listdir(basePath)
+    source = './' + settings.INPUT_FOLDER_NAME + '/'
+    fileNames = os.listdir(source)
     destination = ''
     for fileName in fileNames:
-        kind = filetype.guess(basePath + fileName)
+        kind = filetype.guess(source + fileName)
         if kind.extension in settings.SUPPORTED_IMAGE_EXTENSIONS:
             destination = settings.PHOTOGRAPHY_ARCHIVE_FOLDER_NAME
         elif kind.extension in settings.SUPPORTED_VIDEO_EXTENSIONS:

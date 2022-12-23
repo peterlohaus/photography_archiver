@@ -12,7 +12,15 @@ pip install filetype
 Parameters are defined in [settings.py](./main/settings.py).
 This includes i.a. folder names and datetime format.
 
-## Run
+## Preparation
+
+First create folder structure by running
+
+```
+python init.py
+```
+
+## Run archiver
 
 Paste files in folder [input_files](./input_files/)
 Run
